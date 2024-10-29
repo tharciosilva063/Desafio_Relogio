@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #333333;
+}
+.container{
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.area-relogio{
+    width: 40%;
+    border-radius: 20px;
+    background-color: #111111;
+}
+h1{
+    text-align: center;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    background-color: #ccff00;
+    font-family: Jokerman, fantasy;
+}
+#relogio, #data{
+    color: #ccff00;
+    font-size: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#data{
+    font-size: 2rem;
+}
+h1:hover, #relogio:hover, #data:hover{
+    color:#8338ec;
+}
